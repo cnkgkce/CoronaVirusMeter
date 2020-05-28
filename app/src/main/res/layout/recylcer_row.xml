@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/countryNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country Name : "
+            android:textSize="25dp"
+            android:layout_marginTop="3sp"
+            android:layout_marginLeft="3sp"
+            android:background="@color/cardview_dark_background"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textStyle="bold"
+            ></TextView>
+
+    <TextView
+        android:id="@+id/uuidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignEnd="@+id/countryNameText"
+        android:layout_alignBaseline="@+id/countryNameText"
+
+        ></TextView>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

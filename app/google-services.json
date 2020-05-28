@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121257619098",
+    "firebase_url": "https://coronavirusmeter.firebaseio.com",
+    "project_id": "coronavirusmeter",
+    "storage_bucket": "coronavirusmeter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121257619098:android:6800dca7141c7578997923",
+        "android_client_info": {
+          "package_name": "com.example.coronavirusmeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121257619098-9dgoaat2isbndkbap5ofjjo0ljvgdob3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYn7gw6eHu4fasQAzvxNYSKkbyvUPJocA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121257619098-9dgoaat2isbndkbap5ofjjo0ljvgdob3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
