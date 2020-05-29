@@ -27,12 +27,14 @@ class DetailsActivity : AppCompatActivity() {
 
     fun observeLiveData(){
         viewModel.dataLiveData.observe(this, Observer {dataModel->
-            detailsCountryText.text = dataModel.country
-            detailTotalConfirmedText.text = dataModel.totalConfirmed.toString()
-            detailTotalDeathsText.text = dataModel.totalDeaths.toString()
-            detailTotalRecoveredText.text = dataModel.totalRecovered.toString()
-
-          })
-
+           try {
+               detailsCountryText.text = dataModel.country
+               detailTotalConfirmedText.text = dataModel.totalConfirmed.toString()
+               detailTotalDeathsText.text = dataModel.totalDeaths.toString()
+               detailTotalRecoveredText.text = dataModel.totalRecovered.toString()
+           }catch (e:Exception){
+               e.printStackTrace()
+           }
+        })
     }
 }
